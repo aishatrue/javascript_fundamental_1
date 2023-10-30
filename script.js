@@ -16,13 +16,16 @@
 
 //     whether Mark has a higher BMI than John.
 
-let markMass = 78;
-let markHeight = 1.69;
-let johnMass = 92;
-let johnHeight = 1.95;
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
 
-let markBMI = markMass / markHeight ** 2;
-let johnBMI = johnMass / johnHeight ** 2;
+let BMIMark = massMark / (heightMark * heightMark);
+let BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log(BMIMark);
+console.log(BMIJohn);
 
 let markHigherBMI;
 console.log(markBMI > johnBMI);
